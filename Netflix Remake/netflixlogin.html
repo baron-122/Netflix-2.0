@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+         Netflix
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF=8">
+        <link rel="stylesheet" href="netflixlogin.css">
+        
+    </head>
+    <body>
+       
+            <!--<img src="assets/netflixhome.jpg">-->
+        <div class="main">
+             <header>
+                 <h2 class="logo">NETFLIX</h2>
+                <nav>
+                
+                <ul> 
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+               
+                 </nav>
+                  <div class="smain">
+                    <button class="sbtn" type="button">Sign In</button>
+                    <button class="bJN" type="button">Join Now</button>
+                </div>
+                 <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                 <div class="bar1"></div>
+                 <div class="bar2"></div>
+                 <div class="bar3"></div>
+                 <ul class="mobile-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">About</a></li> 
+                 </ul>
+                 </div>
+                
+            </header>
+            
+        
+           <div class="form-page">
+               <div class="form-box">
+               <form id="login" class="input-group-login">
+                   <p class="sGn">Sign In</p><br>
+                   <input type="text" class="input-field" placeholder="Email ID" required>
+                   <input type="password" class="input-field" placeholder="Enter Password" required>
+                   <button type="submit" class="submit-btn">Sign In</button><br><br>
+                   <div class="chkSpn">
+                        <input type="checkbox" class="check-box"><span class="sp1">Remember Me</span>
+                       <span class="sp2"><a href="#">Need Help?</a></span>
+                   </div>
+                </form> 
+               </div>
+            </div>
+             <footer>
+            <p class="ftp"> Thank you </p> 
+        </footer>
+        </div>
+       <script src="netflix.js"></script>
+    </body>
+</html>  
